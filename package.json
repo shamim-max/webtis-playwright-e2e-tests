@@ -1,0 +1,19 @@
+{
+  "name": "webtis-playwright-e2e-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests with AI and MCP",
+  "keywords": [
+    "playwright",
+    "playwright-e2e-test",
+    "playwright-mcp"
+  ],
+  "license": "ISC",
+  "author": "SA",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.0"
+  }
+}
