@@ -11,7 +11,11 @@
   "author": "SA",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "firefox":"npx playwright test tests/demo/mytest.spec.ts --project=firefox --headed",
+    "login":"npx playwright test tests/demo/mytest.spec.ts --project=chromium --headed"
+    
+  },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.5.0"
